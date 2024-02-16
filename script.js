@@ -4,6 +4,7 @@
     const imgInput = document.querySelector('.js-custom-img')
     const button = document.createElement('button');
     button.textContent = 'Clear fields.';
+    button.disabled = true;
     document.querySelector('.js-custom-fields').appendChild(button);
     
 
