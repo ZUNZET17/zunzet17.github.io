@@ -1,4 +1,4 @@
-  document.addEventListener('DOMContentLoaded', () => {
+
     console.log("script loaded")
     const textInput = document.querySelector('.js-custom-txt');
     const imgInput = document.querySelector('.js-custom-img')
@@ -28,4 +28,3 @@
       imgInput.value = null;
       button.disabled = true
     })
-  })
